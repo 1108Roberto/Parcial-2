@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Cargar datos
-df = pd.read_csv('')
+df = pd.read_csv('975f3705-b7e2-4555-b14b-a9a3a07503b0_Data.csv')
 
 # Ruta para obtener todos los datos
 @app.route('/api/v1/vaccination', methods=['GET'])
